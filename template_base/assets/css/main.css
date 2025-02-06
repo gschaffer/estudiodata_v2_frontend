@@ -1303,9 +1303,9 @@ section,
 }
 
 /*--------------------------------------------------------------
-# Doctors Section
+# contadores Section
 --------------------------------------------------------------*/
-.doctors .team-member {
+.contadores .team-member {
   background-color: var(--surface-color);
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
   position: relative;
@@ -1316,46 +1316,46 @@ section,
 }
 
 @media (max-width: 468px) {
-  .doctors .team-member {
+  .contadores .team-member {
     flex-direction: column;
     justify-content: center !important;
     align-items: center !important;
   }
 }
 
-.doctors .team-member .pic {
+.contadores .team-member .pic {
   overflow: hidden;
   width: 150px;
   border-radius: 50%;
   flex-shrink: 0;
 }
 
-.doctors .team-member .pic img {
+.contadores .team-member .pic img {
   transition: ease-in-out 0.3s;
 }
 
-.doctors .team-member:hover {
+.contadores .team-member:hover {
   transform: translateY(-10px);
 }
 
-.doctors .team-member .member-info {
+.contadores .team-member .member-info {
   padding-left: 30px;
 }
 
 @media (max-width: 468px) {
-  .doctors .team-member .member-info {
+  .contadores .team-member .member-info {
     padding: 30px 0 0 0;
     text-align: center;
   }
 }
 
-.doctors .team-member h4 {
+.contadores .team-member h4 {
   font-weight: 700;
   margin-bottom: 5px;
   font-size: 20px;
 }
 
-.doctors .team-member span {
+.contadores .team-member span {
   display: block;
   font-size: 15px;
   padding-bottom: 10px;
@@ -1363,7 +1363,7 @@ section,
   font-weight: 500;
 }
 
-.doctors .team-member span::after {
+.contadores .team-member span::after {
   content: "";
   position: absolute;
   display: block;
@@ -1375,17 +1375,17 @@ section,
 }
 
 @media (max-width: 468px) {
-  .doctors .team-member span::after {
+  .contadores .team-member span::after {
     left: calc(50% - 25px);
   }
 }
 
-.doctors .team-member p {
+.contadores .team-member p {
   margin: 10px 0 0 0;
   font-size: 14px;
 }
 
-.doctors .team-member .social {
+.contadores .team-member .social {
   margin-top: 12px;
   display: flex;
   align-items: center;
@@ -1394,12 +1394,12 @@ section,
 }
 
 @media (max-width: 468px) {
-  .doctors .team-member .social {
+  .contadores .team-member .social {
     justify-content: center;
   }
 }
 
-.doctors .team-member .social a {
+.contadores .team-member .social a {
   background: color-mix(in srgb, var(--default-color), transparent 94%);
   transition: ease-in-out 0.3s;
   display: flex;
@@ -1410,21 +1410,21 @@ section,
   height: 36px;
 }
 
-.doctors .team-member .social a i {
+.contadores .team-member .social a i {
   color: color-mix(in srgb, var(--default-color), transparent 20%);
   font-size: 16px;
   margin: 0 2px;
 }
 
-.doctors .team-member .social a:hover {
+.contadores .team-member .social a:hover {
   background: var(--accent-color);
 }
 
-.doctors .team-member .social a:hover i {
+.contadores .team-member .social a:hover i {
   color: var(--contrast-color);
 }
 
-.doctors .team-member .social a+a {
+.contadores .team-member .social a+a {
   margin-left: 8px;
 }
 
