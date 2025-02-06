@@ -1727,3 +1727,14 @@
   .starter-section {
     /* Add your styles here */
   }
+
+  .mobile-only {
+    display: none;
+  }
+
+  /* Mostrar el div solo cuando el ancho de la pantalla sea 768px o menor (típico en móviles) */
+  @media (max-width: 768px) {
+    .mobile-only {
+      display: list-item;
+    }
+  }
