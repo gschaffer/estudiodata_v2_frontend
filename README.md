@@ -18,3 +18,6 @@ Abrir paleta de comandos con: Control + Shift + P -> Format document -> configur
 C:\Users\gusta\OneDrive\Escritorio\programacion\estudiodata_v2\estudiodata_v2_frontend\src\assets\img
 https://dashboard.render.com/
 https://www.netlify.com/
+
+# Bitacora de horas trabajadas:
+02/06 --> 6hs
