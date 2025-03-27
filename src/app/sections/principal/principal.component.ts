@@ -1,11 +1,10 @@
 import { Component } from '@angular/core';
+import { ServiciosComponent } from '../servicios/servicios.component';
 
 @Component({
   selector: 'app-principal',
-  imports: [],
+  imports: [ServiciosComponent],
   templateUrl: './principal.component.html',
-  styleUrl: './principal.component.css'
+  styleUrl: './principal.component.css',
 })
-export class PrincipalComponent {
-
-}
+export class PrincipalComponent {}

@@ -5,23 +5,20 @@ import { RecursosTipsComponent } from './sections/recursos-tips/recursos-tips.co
 
 export const routes: Routes = [
   {
-    path: '',
-    component: PrincipalComponent,
-    title: '',
+    path: 'servicios',
+    component: ServiciosComponent,
+    title: 'Servicios',
   },
   {
     path: 'principal',
     component: PrincipalComponent,
     title: 'Principal',
   },
-  {
-    path: 'servicios',
-    component: ServiciosComponent,
-    title: 'Principal',
-  },
+
   {
     path: 'recursos',
     component: RecursosTipsComponent,
     title: 'Recursos',
   },
+  { path: '', redirectTo: '/principal', pathMatch: 'full' },
 ];
