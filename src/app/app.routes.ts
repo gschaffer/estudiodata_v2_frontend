@@ -5,6 +5,11 @@ import { RecursosTipsComponent } from './sections/recursos-tips/recursos-tips.co
 
 export const routes: Routes = [
   {
+    path: '',
+    component: PrincipalComponent,
+    title: 'principal',
+  },
+  {
     path: 'servicios',
     component: ServiciosComponent,
     title: 'Servicios',
@@ -20,5 +25,4 @@ export const routes: Routes = [
     component: RecursosTipsComponent,
     title: 'Recursos',
   },
-  { path: '', redirectTo: '/principal', pathMatch: 'full' },
 ];
