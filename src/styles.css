@@ -852,7 +852,7 @@ section,
 .section {
   color: var(--default-color);
   background-color: var(--background-color);
-  padding: 60px 0;
+  padding: 30px 0;
   scroll-margin-top: 72px;
   overflow: clip;
 }
@@ -912,9 +912,14 @@ section,
 }
 
 /*--------------------------------------------------------------
-  # Hero Section
+  # Portada Section
   --------------------------------------------------------------*/
-.hero {
+
+.content {
+  padding: 20px;
+}
+
+/* .portada {
   width: 100%;
   min-height: calc(100vh - 112px);
   padding: 80px 0;
@@ -923,56 +928,75 @@ section,
   justify-content: center;
   position: relative;
   overflow: hidden;
-}
+} */
 
-.hero img {
-  position: absolute;
-  inset: 0;
-  display: block;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  z-index: 1;
-}
-
-.hero .container {
+.portada .container {
   z-index: 3;
-  margin-bottom: 300px;
+  margin-bottom: 100px;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+  font-family: sans-serif;
 }
 
-.hero .welcome h2 {
-  font-size: 60px;
+.portada .welcome-text h2 {
+  font-size: 4em;
   font-weight: 500;
+  letter-spacing: 3px;
 }
 
-.hero .welcome p {
-  font-size: 24px;
+.portada .welcome-text p {
+  font-size: 1.5em;
+  letter-spacing: 3px;
   margin: 0;
 }
 
-.hero .content {
-  margin-top: 40px;
+/* Media query para móviles (ancho de pantalla menor o igual a 768px) */
+@media (max-width: 768px) {
+  .portada .welcome-text {
+    margin-bottom: 5em;
+  }
+  .portada .welcome-text h2 {
+    font-size: 1.3em; /* Tamaño de letra más pequeño para móviles */
+  }
+
+  .portada .welcome-text p {
+    font-size: 1em; /* Tamaño de letra más pequeño para móviles */
+  }
 }
 
-.hero .content .why-box {
+.portada .welcome-image {
+  width: 25em; /* Ajusta el tamaño del círculo */
+  height: 25em; /* Ajusta el tamaño del círculo */
+  border-radius: 100%; /* Hace que el contenedor sea un círculo */
+  overflow: hidden; /* Recorta la imagen dentro del círculo */
+}
+
+.portada .welcome-image img {
+  height: auto;
+  display: block;
+}
+
+/*
+  .portada .content .why-box {
   color: var(--contrast-color);
   background: var(--accent-color);
   padding: 30px;
   border-radius: 4px;
 }
 
-.hero .content .why-box h3 {
+.portada .content .why-box h3 {
   color: var(--contrast-color);
   font-weight: 700;
   font-size: 34px;
   margin-bottom: 30px;
 }
 
-.hero .content .why-box p {
+.portada .content .why-box p {
   margin-bottom: 30px;
 }
 
-.hero .content .why-box .more-btn {
+.portada .content .why-box .more-btn {
   color: var(--contrast-color);
   background: color-mix(in srgb, var(--contrast-color), transparent 80%);
   display: inline-block;
@@ -981,16 +1005,16 @@ section,
   transition: all ease-in-out 0.4s;
 }
 
-.hero .content .why-box .more-btn i {
+.portada .content .why-box .more-btn i {
   font-size: 14px;
 }
 
-.hero .content .why-box .more-btn:hover {
+.portada .content .why-box .more-btn:hover {
   background: var(--surface-color);
   color: var(--accent-color);
 }
 
-.hero .content .icon-box {
+.portada .content .icon-box {
   text-align: center;
   border-radius: 10px;
   background: color-mix(in srgb, var(--surface-color), transparent 20%);
@@ -999,21 +1023,21 @@ section,
   width: 100%;
 }
 
-.hero .content .icon-box i {
+.portada .content .icon-box i {
   font-size: 40px;
   color: var(--accent-color);
 }
 
-.hero .content .icon-box h4 {
+.portada .content .icon-box h4 {
   font-size: 20px;
   font-weight: 700;
   margin: 10px 0 20px 0;
 }
 
-.hero .content .icon-box p {
+.portada .content .icon-box p {
   font-size: 15px;
   color: color-mix(in srgb, var(--default-color), transparent 30%);
-}
+} */
 
 /*--------------------------------------------------------------
   # About Section
@@ -1725,24 +1749,6 @@ section,
 
 .contact .php-email-form button[type="submit"]:hover {
   background: color-mix(in srgb, var(--accent-color), transparent 20%);
-}
-
-/*--------------------------------------------------------------
-  # Starter Section Section
-  --------------------------------------------------------------*/
-.starter-section {
-  /* Add your styles here */
-}
-
-.mobile-only {
-  display: none;
-}
-
-/* Mostrar el div solo cuando el ancho de la pantalla sea 768px o menor (típico en móviles) */
-@media (max-width: 768px) {
-  .mobile-only {
-    display: list-item;
-  }
 }
 
 /* WHATSAPP */
