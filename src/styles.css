@@ -957,11 +957,13 @@ section,
     margin-bottom: 5em;
   }
   .portada .welcome-text h2 {
-    font-size: 1.3em; /* Tamaño de letra más pequeño para móviles */
+    font-size: 1.5em; /* Tamaño de letra más pequeño para móviles */
+    text-align: center;
   }
 
   .portada .welcome-text p {
-    font-size: 1em; /* Tamaño de letra más pequeño para móviles */
+    font-size: 1.1em;
+    text-align: center; /* Tamaño de letra más pequeño para móviles */
   }
 }
 

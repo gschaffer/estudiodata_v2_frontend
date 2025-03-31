@@ -10,6 +10,11 @@ export const routes: Routes = [
     title: 'principal',
   },
   {
+    path: 'recursos',
+    component: RecursosTipsComponent,
+    title: 'Recursos',
+  },
+  {
     path: 'servicios',
     component: ServiciosComponent,
     title: 'Servicios',
@@ -18,11 +23,5 @@ export const routes: Routes = [
     path: 'principal',
     component: PrincipalComponent,
     title: 'Principal',
-  },
-
-  {
-    path: 'recursos',
-    component: RecursosTipsComponent,
-    title: 'Recursos',
   },
 ];
