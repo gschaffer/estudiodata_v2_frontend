@@ -919,7 +919,7 @@ section,
   padding: 20px;
 }
 
-/* .portada {
+.portada {
   width: 100%;
   min-height: calc(100vh - 112px);
   padding: 80px 0;
@@ -928,7 +928,7 @@ section,
   justify-content: center;
   position: relative;
   overflow: hidden;
-} */
+}
 
 .portada .container {
   z-index: 3;
@@ -940,7 +940,7 @@ section,
 }
 
 .portada .welcome-text h2 {
-  font-size: 3.5em;
+  font-size: 2.8em;
   font-weight: 500;
   letter-spacing: 3px;
 }
@@ -953,6 +953,21 @@ section,
 
 /* Media query para móviles (ancho de pantalla menor o igual a 768px) */
 @media (max-width: 768px) {
+  .portada .welcome-text {
+    margin-bottom: 5em;
+  }
+  .portada .welcome-text h2 {
+    font-size: 1.5em; /* Tamaño de letra más pequeño para móviles */
+    text-align: center;
+  }
+
+  .portada .welcome-text p {
+    font-size: 1.1em;
+    text-align: center; /* Tamaño de letra más pequeño para móviles */
+  }
+}
+
+@media (max-width: 1024px) {
   .portada .welcome-text {
     margin-bottom: 5em;
   }
