@@ -1310,10 +1310,10 @@ section,
   border: 0;
   padding: 12px 15px 12px 0;
   transition: 0.3s;
-  color: var(--default-color);
+  color: var(--accent-color);
   border-radius: 0;
   border-right: 10px solid
-    color-mix(in srgb, var(--default-color), transparent 90%);
+    color-mix(in srgb, var(--accent-color), transparent 90%);
   font-weight: 600;
   font-size: 15px;
 }
@@ -1327,7 +1327,7 @@ section,
   border: 0;
   color: var(--accent-color);
   border-color: var(--accent-color);
-  background-color: var(--background-color);
+  background-color: var(--accent-color);
 }
 
 .servicios .tab-pane.active {
