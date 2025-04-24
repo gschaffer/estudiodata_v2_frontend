@@ -958,12 +958,12 @@ section,
   }
   .portada .welcome-text h2 {
     font-size: 1.5em; /* Tamaño de letra más pequeño para móviles */
-    text-align: center;
+    text-align: left;
   }
 
   .portada .welcome-text p {
     font-size: 1.1em;
-    text-align: center; /* Tamaño de letra más pequeño para móviles */
+    text-align: left; /* Tamaño de letra más pequeño para móviles */
   }
 }
 
@@ -972,13 +972,13 @@ section,
     margin-bottom: 5em;
   }
   .portada .welcome-text h2 {
-    font-size: 1.5em; /* Tamaño de letra más pequeño para móviles */
-    text-align: center;
+    font-size: 2.1em; /* Tamaño de letra más pequeño para móviles */
+    text-align: left;
   }
 
   .portada .welcome-text p {
     font-size: 1.1em;
-    text-align: center; /* Tamaño de letra más pequeño para móviles */
+    text-align: left; /* Tamaño de letra más pequeño para móviles */
   }
 }
 
