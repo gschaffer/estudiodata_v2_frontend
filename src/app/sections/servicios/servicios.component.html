@@ -8,354 +8,71 @@
   <!-- End Section Title -->
 
   <div class="container" data-aos="fade-up" data-aos-delay="100">
-    <div class="row">
-      <div class="col-lg-3">
-        <ul class="nav nav-tabs flex-column">
-          <li class="nav-item">
-            <a class="nav-link" data-bs-toggle="tab" href="#alta-impuestos"
-              >Inscripcion de Impuestos
-            </a>
-          </li>
-          <li class="nav-item">
-            <a
-              class="nav-link active show"
-              data-bs-toggle="tab"
-              href="#liquidacion-sueldos"
-              >Liquidación de Sueldos
-            </a>
-          </li>
-          <li class="nav-item">
-            <a
-              class="nav-link"
-              data-bs-toggle="tab"
-              href="#certificaciones-contables"
-              >Certificaciones contables
-            </a>
-          </li>
-          <li class="nav-item">
-            <a
-              class="nav-link"
-              data-bs-toggle="tab"
-              href="#regularizar-situacion"
-              >Regularizá tu situación ARCA</a
-            >
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" data-bs-toggle="tab" href="#pack-abono-mensual"
-              >Pack de Abono Mensual</a
-            >
-          </li>
-          <li class="nav-item">
-            <a
-              class="nav-link"
-              data-bs-toggle="tab"
-              href="#recategorizacion-monotributo"
-              >Recategorización de Monotributo</a
-            >
-          </li>
-        </ul>
+    <div class="row row-cols-1 row-cols-md-2 g-4">
+      <div class="col-lg-6">
+        <a routerLink="/alta-impuestos">
+          <div class="card">
+            <img
+              src="assets/img/impuestos.png"
+              class="card-img-top"
+              alt="impuestos"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Alta en Impuestos</h5>
+            </div>
+          </div>
+        </a>
       </div>
-      <div class="col-lg-9 mt-4 mt-lg-0">
-        <div class="tab-content">
-          <div class="tab-pane active show" id="liquidacion-sueldos">
-            <div class="row">
-              <div class="col-lg-8 details order-2 order-lg-1">
-                <h3>Liquidación de Sueldos</h3>
-                <p>Altas y bajas de empleados.</p>
-                <p>Asesoramiento con el convenio colectivo de trabajo.</p>
-                <p>
-                  Asesoramiento con la contratación de la ART y el seguro de
-                  vida obligatorio.
-                </p>
-                <p>Liquidación y armado de los recibos de sueldo.</p>
-                <p>Liquidación y presentación del F.931.</p>
-                <p>Generación de VEPS.</p>
-                <p>Boletas sindicales.</p>
-                <p>Indemnizaciones laborales.</p>
-
-                <div class="col-md-6 text-center">
-                  <a
-                    class="cta-btn d-sm-block"
-                    target="_blank"
-                    href="https://wa.me/541134992110?text=Enviado desde la WEB --> Tengo interés en Liquidación de Sueldos"
-                  >
-                    Contratar Servicio
-                  </a>
-                </div>
-              </div>
-
-              <div class="col-lg-4 text-center order-1 order-lg-2">
-                <img
-                  src="assets/img/liquidacion-sueldos.png"
-                  alt=""
-                  class="img-fluid"
-                />
-              </div>
-            </div>
+      <div class="col-lg-6">
+        <div class="card">
+          <img
+            src="assets/img/pack-altas.png"
+            class="card-img-top"
+            alt="Palm Springs Road"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Pack de Abono Mensual</h5>
           </div>
-          <div class="tab-pane" id="certificaciones-contables">
-            <div class="row">
-              <div class="col-lg-8 details order-2 order-lg-1">
-                <h3>Certificación de Ingresos</h3>
-                <p class="fst-normal">
-                  La certificación de ingresos es un documento certificado por
-                  un contador matriculado que demuestra la legitimidad frente a
-                  una suma de dinero no frecuente. Por lo general, son las
-                  entidades financieras quienes suelen pedir este certificado.
-                </p>
-                <h3>Certificación de Origen de Fondos.</h3>
-                <p>
-                  La certificación de origen de fondos es una declaración jurada
-                  certificada por Contador Público donde se declara que los
-                  fondos utilizados para realizar determinado gasto o consumo
-                  son lícitos.
-                </p>
-                <p>
-                  Por lo general, te la suelen pedir las entidades bancarias o
-                  mismo cuando queres comprar un inmueble o un automotor que
-                  supere cierta suma de dinero.
-                </p>
-                <div class="col-md-6 text-center">
-                  <a
-                    class="cta-btn d-sm-block"
-                    target="_blank"
-                    href="https://wa.me/541134992110?text=Enviado desde la WEB --> Tengo interés en Certificaciones contables"
-                  >
-                    Contratar Servicio
-                  </a>
-                </div>
-              </div>
-              <div class="col-lg-4 text-center order-1 order-lg-2">
-                <img
-                  src="assets/img/certificaciones-contables.png"
-                  alt=""
-                  class="img-fluid"
-                />
-              </div>
-            </div>
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="card">
+          <img
+            src="assets/img/liquidacion-sueldos.png"
+            class="card-img-top"
+            alt="Estudio Data Estudio Data"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Liquidación de Sueldos</h5>
           </div>
-          <div class="tab-pane" id="regularizar-situacion">
-            <div class="row">
-              <div class="col-lg-8 details order-2 order-lg-1">
-                <h3>Regularizá tu situación ARCA</h3>
-                <p>
-                  ¿Te llegó una intimación de ARCA y no sabes por dónde empezar
-                  a contestarla?
-                </p>
-                <p>
-                  ¿Te diste de baja en el monotributo pero te olvidaste de la
-                  baja en ingresos brutos y eso te está generando deuda?
-                </p>
-                <p>
-                  ¿Necesitas regularizar tu situación de ingresos brutos porque
-                  nunca presentaste las declaraciones juradas? ¿Queres
-                  confeccionar un plan de pagos para saldar tu deuda?
-                </p>
-                <p>
-                  Pedí tu presupuesto para regularizar tu situación y no tener
-                  más problemas con el fisco.
-                </p>
-                <div class="col-md-6 text-center">
-                  <a
-                    class="cta-btn d-sm-block"
-                    target="_blank"
-                    href="https://wa.me/541134992110?text=Enviado desde la WEB --> Tengo interés en Regularizar situacion ARCA"
-                  >
-                    Contratar Servicio
-                  </a>
-                </div>
-              </div>
-              <div class="col-lg-4 text-center order-1 order-lg-2">
-                <img src="assets/img/impuestos.png" alt="" class="img-fluid" />
-              </div>
-            </div>
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="card">
+          <img
+            src="assets/img/certificaciones-contables.png"
+            class="card-img-top"
+            alt="Estudio Data"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Certificaciones contables</h5>
           </div>
-          <div class="tab-pane" id="alta-impuestos">
-            <div class="row">
-              <div class="col-lg-8 details order-2 order-lg-1">
-                <h4>Inscripcion de Impuestos</h4>
-                <p>(Monotributo - Autonomos - etc)</p>
-
-                <br />
-                <p>
-                  Si nos consultas, somos de los que prefieren delegar y dejar
-                  en manos de un profesional idoneo en la materia los temas que
-                  desconocemos.
-                </p>
-                <p>
-                  Si deseas sacarte de encima al ARCA y no queres vivir con
-                  miedo de lo que pueda llegar a pasar manejando las cosas por
-                  tu parte, pedinos un presupuesto para que nosostros nos de esa
-                  parte de tu negocio de la que no te queres preocupar ni
-                  ocupar.
-                </p>
-
-                <p>
-                  Si queres comenzar un negocio, emprendimiento o desarrollarte
-                  como profesional independiente, te recomendamos que lo hagas
-                  de la forma correcta. Inscribite en los impuestos de entrada
-                  para estar al día con el fisco y no tener dolores de cabeza
-                  más adelante.
-                </p>
-
-                <h5><b>¿Qué incluye este pack?</b></h5>
-                <ul>
-                  <br />
-                  <li>
-                    Liquidación y presentación de declaraciones juradas
-                    mensuales de impuestos nacionales y provinciales.
-                  </li>
-                </ul>
-
-                <p>
-                  Liquidación y presentación de declaraciones juradas anuales de
-                  impuestos nacionales y provinciales.
-                </p>
-                <p>Generación de VEPS.</p>
-                <p>
-                  Control de Domicilio Fiscal Electrónico, tanto de ARCA como de
-                  rentas.
-                </p>
-                <p>Control mensual de facturas recibidas y emitidas.</p>
-                <p>Consultas y asesoramiento mensual al cliente.</p>
-                <p>Solicitud de certificado mi pyme.</p>
-                <p>Solicitud de beneficios impositivos.</p>
-                <p>Confección de planes de pago.</p>
-                <p>Asistencia en facturación mensual.</p>
-
-                <p>
-                  Tenemos Packs de abonos mensuales que se adaptan a cada tipo
-                  de contribuyente:
-                </p>
-                <ol>
-                  <p>TODO</p>
-                </ol>
-                <div class="col-md-6 text-center">
-                  <a
-                    class="cta-btn d-sm-block"
-                    target="_blank"
-                    href="https://wa.me/541134992110?text=Enviado desde la WEB --> Tengo interés en Pack Impuestos"
-                  >
-                    Contratar Servicio
-                  </a>
-                </div>
-              </div>
-              <div class="col-lg-4 text-center order-1 order-lg-2">
-                <img
-                  src="assets/img/certificaciones-contables.png"
-                  alt=""
-                  class="img-fluid"
-                />
-              </div>
-            </div>
-          </div>
-          <div class="tab-pane" id="pack-abono-mensual">
-            <div class="row">
-              <div class="col-lg-8 details order-2 order-lg-1">
-                <h3>Pack de altas- Abono Mensual</h3>
-                <p>
-                  Si nos consultas, somos de los que prefieren delegar y dejar
-                  en manos de un profesional idoneo en la materia los temas que
-                  desconocemos.
-                </p>
-                <p>
-                  Si deseas sacarte de encima al ARCA y no queres vivir con
-                  miedo de lo que pueda llegar a pasar manejando las cosas por
-                  tu parte, pedinos un presupuesto para que nosostros nos de esa
-                  parte de tu negocio de la que no te queres preocupar ni
-                  ocupar.
-                </p>
-
-                <p><b>¿Qué incluye este pack?</b></p>
-
-                <ol>
-                  <li>Asistencia con la generación de tu clave fiscal.</li>
-                  <li>Alta de CUIT.</li>
-                  <li>
-                    Alta de impuestos nacionales, provinciales y municipales, en
-                    caso de corresponder.
-                  </li>
-                  <li>Alta de puntos de venta para poder facturar.</li>
-                  <li>Adhesión al Domicilio Fiscal Electrónico.</li>
-                  <li>Asistencia con la elección de la obra social.</li>
-                  <li>Solicitud de certificado Mi Pyme.</li>
-                  <li>
-                    Un encuentro para despejar dudas (Presencial o por Zoom).
-                  </li>
-                </ol>
-
-                <br />
-                <h6>¡Te esperamos para trabajar Juntos!</h6>
-                <br />
-                <div class="col-md-6 text-center">
-                  <a
-                    class="cta-btn d-sm-block"
-                    target="_blank"
-                    href="https://wa.me/541134992110?text=Enviado desde la WEB --> Tengo interés en Regularizar situacion ARCA"
-                  >
-                    Contratar Servicio
-                  </a>
-                </div>
-              </div>
-              <div class="col-lg-4 text-center order-1 order-lg-2">
-                <img src="assets/img/pack-altas.png" alt="" class="img-fluid" />
-              </div>
-            </div>
-          </div>
-          <div class="tab-pane" id="recategorizacion-monotributo">
-            <div class="row">
-              <div class="col-lg-8 details order-2 order-lg-1">
-                <h3>Recategorización – Monotributo</h3>
-                <p>¿Sos monotributista y necesitas recategorizarte?</p>
-                <p>
-                  Envío de informe de la situación del contribuyente vía mail
-                  con análisis de:
-                </p>
-                <ol>
-                  <li>
-                    Compras/gastos en relación con los ingresos declarados por
-                    el contribuyente;
-                  </li>
-                  <li>
-                    Facturación proyectada de cara a la próxima
-                    recategorización;
-                  </li>
-                  <li>
-                    Saldos a favor con su correspondiente reafectación de
-                    saldos, en caso de poseer.
-                  </li>
-                  <li>
-                    Deuda vigente con su correspondiente emisión de VEP, en caso
-                    de poseer.
-                  </li>
-                  <li>Análisis de categoría vigente y proyectada.</li>
-                </ol>
-                <p>
-                  Además, se hará un control de que las facturas emitidas estén
-                  bien confeccionadas.
-                </p>
-                <div class="col-md-6 text-center">
-                  <a
-                    class="cta-btn d-sm-block"
-                    target="_blank"
-                    href="https://wa.me/541134992110?text=Enviado desde la WEB --> Tengo interés en Recategorización Monotributo"
-                  >
-                    Contratar Servicio
-                  </a>
-                </div>
-              </div>
-              <div class="col-lg-4 text-center order-1 order-lg-2">
-                <img
-                  src="assets/img/monotributo.png"
-                  alt=""
-                  class="img-fluid"
-                />
-              </div>
-            </div>
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="card">
+          <img
+            src="assets/img/monotributo.png"
+            class="card-img-top"
+            alt="Estudio Data"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Regularizá tu situación ARCA</h5>
           </div>
         </div>
       </div>
     </div>
   </div>
 </section>
+
 <!-- /Servicios Section -->
