@@ -7,17 +7,23 @@ import { AltaImpuestosComponent } from './sections/servicios/alta-impuestos/alta
 import { PackAbonoMensualComponent } from './sections/servicios/pack-abono-mensual/pack-abono-mensual.component';
 import { CertificacionesContablesComponent } from './sections/servicios/certificaciones-contables/certificaciones-contables.component';
 import { SituacionArcaComponent } from './sections/servicios/situacion-arca/situacion-arca.component';
+import { QuienesSomosComponent } from './sections/servicios/quienes-somos/quienes-somos.component';
 
 export const routes: Routes = [
   {
     path: '',
     component: PrincipalComponent,
-    title: 'principal',
+    title: 'Estudio DATA principal',
   },
   {
     path: 'recursos',
     component: RecursosTipsComponent,
-    title: 'Recursos',
+    title: 'Estudio DATA  Recursos',
+  },
+  {
+    path: 'quienes-somos',
+    component: QuienesSomosComponent,
+    title: 'Estudio DATA Quienes Somos',
   },
   { path: 'alta-impuestos', component: AltaImpuestosComponent },
   { path: 'pack-abono-mensual', component: PackAbonoMensualComponent },
