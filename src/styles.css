@@ -1872,4 +1872,9 @@ a {
 li {
   font-size: 14px;
 }
+.img-fija-servicios {
+  width: 20em;
+  height: 20em;
+  object-fit: cover; /* o 'contain', según necesidad */
+}
 /* Fin Secciones */
