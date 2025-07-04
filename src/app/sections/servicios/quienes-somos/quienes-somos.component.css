@@ -1,3 +1,10 @@
 .texto-color {
   color: var(--accent-color);
 }
+
+.img-fija-quienes-somos {
+  width: 30em;
+  height: 30em;
+  object-fit: cover; /* o 'contain', según necesidad */
+  margin-left: 100px;
+}
