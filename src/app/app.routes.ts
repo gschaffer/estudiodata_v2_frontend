@@ -8,6 +8,7 @@ import { PackAbonoMensualComponent } from './sections/servicios/pack-abono-mensu
 import { CertificacionesContablesComponent } from './sections/servicios/certificaciones-contables/certificaciones-contables.component';
 import { SituacionArcaComponent } from './sections/servicios/situacion-arca/situacion-arca.component';
 import { QuienesSomosComponent } from './sections/servicios/quienes-somos/quienes-somos.component';
+import { DondeEstamosComponent } from './sections/donde-estamos/donde-estamos.component';
 
 export const routes: Routes = [
   {
@@ -24,6 +25,11 @@ export const routes: Routes = [
     path: 'quienes-somos',
     component: QuienesSomosComponent,
     title: 'Estudio DATA Quienes Somos',
+  },
+  {
+    path: 'donde-estamos',
+    component: DondeEstamosComponent,
+    title: 'Estudio DATA Donde estamos',
   },
   { path: 'alta-impuestos', component: AltaImpuestosComponent },
   { path: 'pack-abono-mensual', component: PackAbonoMensualComponent },
